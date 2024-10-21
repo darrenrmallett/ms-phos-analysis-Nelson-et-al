@@ -12,17 +12,17 @@ Alternative download:
 
 3) After installing Python and basic libraries through the above sources, user must install additional modules (third party) by typing the following into Terminal and hitting enter:
 
-        --> if pip is not working, you can install it here: https://pip.pypa.io/en/stable/installation/
-        
-        The following modules are required to run the scripts. Run the following commands in your terminal:
-
-        pip install regex
-        pip install XlsxWriter
-        pip install pandas
-        pip install requests
-        
-        If the script throws an error for a particular library not mentioned above, it is easiest to troubleshoot by typing "pip install" followed by the library in the error message and then re-starting the program.
+    --> if pip is not working, you can install it here: https://pip.pypa.io/en/stable/installation/
     
+    The following modules are required to run the scripts. Run the following commands in your terminal:
+
+    pip install regex
+    pip install XlsxWriter
+    pip install pandas
+    pip install requests
+    
+    If the script throws an error for a particular library not mentioned above, it is easiest to troubleshoot by typing "pip install" followed by the library in the error message and then re-starting the program.
+
 4) The MS data being analyzed is in the 'msfiles' folder. To analyze your own, add your MS files into 'msfiles' folder within the parent package folder. Note that it is easier to run the script using simple filenames, such as wildtype.xlsx or something.
 
 5) IMPORTANT: Make sure your MS files have the 'Proteins & Peptides' worksheet (tab) as the first tab in the .xlsx file (all the way to the left). This is the table with the expandable/hidden rows. Otherwise the script will not work.
