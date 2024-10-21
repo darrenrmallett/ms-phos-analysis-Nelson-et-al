@@ -16,10 +16,12 @@ Alternative download:
     
     The following modules are required to run the scripts. Run the following commands in your terminal:
 
+    ```
     pip install regex
     pip install XlsxWriter
     pip install pandas
     pip install requests
+    ```
     
     If the script throws an error for a particular library not mentioned above, it is easiest to troubleshoot by typing "pip install" followed by the library in the error message and then re-starting the program.
 
@@ -29,17 +31,23 @@ Alternative download:
 
 5) Open terminal, and set working directory to the Python directory using the following command:
 
+    ```
     cd directory_path/Python
+    ```
     
     For instance, if you put Python folder on desktop, you would type:
     
+    ```
     cd Desktop/python
+    ```
     
 6) To run the phosphorylation analysis, type into Terminal:
 
+    ```
     python phospho.py
+    ```
     
-    note: sometimes for python3 users, it is "python3 phospho.py"
+    note: sometimes for python3 users, it is ```python3 phospho.py```
     
 Follow the commands. When the analysis is done, the 'output' folder contains the comparison file.
     
